@@ -25,4 +25,5 @@
 | Project name | Student name |
 | --- | --- |
 | [emoji-labeller](/projects/emoji-labeller) | Иванов Иван Иванович |
+| [daniilprohorov](/projects/daniilprohorov) | Прохоров Даниил Андреевич |
 
