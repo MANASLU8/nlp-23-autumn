@@ -26,4 +26,5 @@
 | --- | --- |
 | [emoji-labeller](/projects/emoji-labeller) | Иванов Иван Иванович |
 | [news-topic-classification](/projects/news-topic-classification) | Гораш Вячеслав Игоревич |
+| [str_nlp](/projects/str_nlp) | Строкова Анастасия Владиславовна |
 
