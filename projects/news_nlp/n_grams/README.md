@@ -6,7 +6,7 @@
 **Меры ассоциативной связанности (`association measures`)** - меры, вычисляющие силу связи между элементами в составе коллокации (параметры: частота совместной встречаемости, частота слова в корпусе, размер корпуса, и др.).  
 
 **MI**
-![MI](https://github.com/kivirciks/nlp/blob/main/assets/MI.png)
+![MI](https://github.com/kivirciks/nlp-23-autumn/blob/main/projects/news_nlp/utils/MI.png)
 `n` — ключевое слово (`node`);  
 `c` — коллокат (`collocate`);  
 `f (n, c)` — частота встречаемости ключевого слова `n` в паре с коллокатом `c`;  
@@ -16,7 +16,8 @@
 `f(u_i)` - абсолютная частота `i`-й униграммы в `n`-грамме.  
 
 **Log-likelihood**
-![log-likelihood](https://github.com/kivirciks/nlp/blob/main/assets/log-likelihood.png)
+![log-likelihood](https://github.com/kivirciks/nlp-23-autumn/blob/main/projects/news_nlp/utils/log-likelihood.png)
+
 `O_ij`, `E_ij` - наблюдаемая и ожидаемая частоты соответственно;  
 `ngram` - количество слов в `n`-грамме (например, для триграмм `ngram = 3`).  
 
