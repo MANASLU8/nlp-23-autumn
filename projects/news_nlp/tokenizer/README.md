@@ -42,6 +42,6 @@ def tokenize_text(text):
 <li> Второй столбик - стемминг 
 <li> Третий столбик - лемматизация
     <br>
-  
-  ![Результат токенизации](https://github.com/kivirciks/nlp/blob/main/assets/example_tokenizer.PNG)
+
+  ![Результат токенизации](https://github.com/kivirciks/nlp-23-autumn/blob/main/projects/news_nlp/utils/example_tokenizer.PNG)
 
