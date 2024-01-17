@@ -22,10 +22,10 @@
 
 Результаты выполнения лабораторных работ оформляются в виде проектов и размещаются в отдельных директориях внутри каталога [projects](/projects) (также см. [указания по выполнению лабораторных работ](/tasks/README.md)). В качестве названия директории испоьзуется название соответствующего проекта, которое необходимо указывать в соответствии с конвенцией `kebab-case`. Соответствие между названием проекта и ФИО студента задается в следующей таблице:
 
-| Project name | Student name |
-| --- | --- |
-| [emoji-labeller](/projects/emoji-labeller) | Иванов Иван Иванович |
+| Project name                                                     | Student name |
+|------------------------------------------------------------------| --- |
+| [emoji-labeller](/projects/emoji-labeller)                       | Иванов Иван Иванович |
 | [news-topic-classification](/projects/news-topic-classification) | Гораш Вячеслав Игоревич |
-| [aj-news-clusterization](/projects/aj-news-clusterization) | Федотовских Евгений Александрович |
-| [ag-news-classification](/projects/ag-news-classification) | Веснин Дмитрий Владимирович |
-| [pb-news-dataset(/projects/pb-news-dataset) | Беликов Павел Геннадьевич |
+| [aj-news-clusterization](/projects/aj-news-clusterization)       | Федотовских Евгений Александрович |
+| [ag-news-classification](/projects/ag-news-classification)       | Веснин Дмитрий Владимирович |
+| [pb-news-dataset](/projects/pb-news-dataset)                     | Беликов Павел Геннадьевич |
