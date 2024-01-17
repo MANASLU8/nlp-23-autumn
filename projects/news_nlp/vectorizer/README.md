@@ -11,15 +11,15 @@
 
 **Векторизация** - преобразование текста из символьного представления в последовательность вещественных чисел (векторов) заданного размера.
 
-Для сравнения стандартной модели и с сокращенной размерностью было выбрано слово basketball
+Для сравнения стандартной модели и с сокращенной размерностью было выбрано слово basketball <br>
 Близкие по значению - `["football", "soccer"]` <br>
 Из одной предметной области - `["sport", "players"]` <br>
 Из разных предметных областей - `["yesterday", "fresh", "rules"]` 
 <br>
 
-Вариант графика без использования PCA: <br>
+**Вариант графика без использования PCA:** <br>
 ![basketball_example_plot](https://github.com/kivirciks/nlp-23-autumn/blob/main/projects/news_nlp/utils/basketball_example_plot.png) <br>
-Вариант графика с использованием PCA: <br>
+**Вариант графика с использованием PCA:** <br>
 ![basketball_example_plot](https://github.com/kivirciks/nlp-23-autumn/blob/main/projects/news_nlp/utils/basketball_example_PCA_plot.png)
 <br>
 Можно сделать вывод, что в данном случае модель с использованием сокращения размерности работает лучше.
