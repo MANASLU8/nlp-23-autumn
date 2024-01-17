@@ -82,9 +82,7 @@ for num_topics in num_clusters:
     perplexity = lda_model.log_perplexity(test_corpus)
     perplexity_values.append(perplexity)
     print(f'Perplexity for {num_topics} topics: {perplexity}')
-
     save_document_probabilities(lda_model)
-
     print(f"Experiment for {num_topics} topics is completed.")
 
 
@@ -94,14 +92,3 @@ plt.xlabel('Number of Topics')
 plt.ylabel('Perplexity')
 plt.title('Perplexity vs Number of Topics')
 plt.savefig('perplexity_graph.png')
-
-# Полиномиальная аппроксимация графика
-coefficients = np.polyfit(num_clusters, perplexity_values, degree)
-polynomial = np.polyval(coefficients, num_clusters)
-plt.plot(num_clusters, perplexity_values, 'o-', label='Perplexity')
-plt.plot(num_clusters, polynomial, '-', label='Polynomial Approximation')
-plt.xlabel('Number of Topics')
-plt.ylabel('Perplexity')
-plt.title('Perplexity vs Number of Topics with Polynomial Approximation')
-plt.legend()
-plt.savefig('polynomial_approximation.png')
