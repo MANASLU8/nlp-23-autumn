@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import os
 import pandas as pd
 import json
@@ -15,12 +9,7 @@ from tqdm import tqdm, trange
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.datasets import make_multilabel_classification
 
-
-# In[ ]:
-
-
 all_lemmas_test = []
-
 # обработка файлов в папке с каждой категорией
 for folder in tqdm(['1', '2', '3', '4']):
     folder_path = os.path.join('assets/annotated_corpus/test/', folder)
@@ -44,20 +33,12 @@ for folder in tqdm(['1', '2', '3', '4']):
                     all_lemmas.append(sentence_lemmas)
         except: Exception
 
-
-# In[ ]:
-
-
 # обращение к term_document_matrix и terms
 with open("term_document_matrix", "rb") as fp:
     term_document_matrix = pickle.load(fp)
     
 with open("terms", "rb") as fp: 
     terms = pickle.load(fp)
-
-
-# In[ ]:
-
 
 # создаем аннотируемый корпус на основе распределения тем для каждого документа
 def create_annotation(doc_topic_dist, n_comps):
@@ -72,10 +53,6 @@ def create_annotation(doc_topic_dist, n_comps):
                         # запись вероятности
                         f.write(f"{prob}\t")
                     f.write("\n")  
-
-
-# In[ ]:
-
 
 # непосредственно тематическое модедирование с помощью LDA
 def lda_for_comps(lda_comp, term_document_matrix, max_iter):
@@ -107,18 +84,10 @@ def lda_for_comps(lda_comp, term_document_matrix, max_iter):
     # чем более низкая перплексия, тем лучше модель
     return lda.perplexity(term_document_matrix)
 
-
-# In[ ]:
-
-
 # задание входных параметров
 lda_comps = [2, 5, 10, 20, 40]
 perplexity = [lda_for_comps(lda_comp, term_document_matrix, max_iter=10) for lda_comp in tqdm(lda_comps)]
 perplexity
-
-
-# In[ ]:
-
 
 # построение графика
 plt.figure(dpi=280, figsize=(8,4))
@@ -129,18 +98,8 @@ plt.xlabel("n_comps")
 plt.ylabel("perplexity")
 plt.show()
 
-
-# ### 5 итераций (в первом случае было 10) 
-
-# In[ ]:
-
-
+# 5 итераций (в первом случае было 10) 
 perplexity = [lda_for_comps(lda_comp, term_document_matrix, max_iter=5) for lda_comp in tqdm(lda_comps)]
-
-
-# In[ ]:
-
-
 plt.figure(dpi=280, figsize=(8,4))
 plt.plot(lda_comps, perplexity, color='red')
 pol = np.poly1d(np.polyfit(lda_comps, perplexity, 5))
@@ -149,18 +108,8 @@ plt.xlabel("n_comps")
 plt.ylabel("perplexity")
 plt.show()
 
-
-# ### 20 итераций (в первом случае было 10)
-
-# In[ ]:
-
-
+# 20 итераций (в первом случае было 10)
 perplexity = [lda_for_comps(lda_comp, term_document_matrix, max_iter=20) for lda_comp in tqdm(lda_comps)]
-
-
-# In[ ]:
-
-
 plt.figure(dpi=280, figsize=(8,4))
 plt.plot(lda_comps, perplexity, color='red')
 pol = np.poly1d(np.polyfit(lda_comps, perplexity, 5))
@@ -168,4 +117,3 @@ plt.plot(lda_comps, [pol(lda_comp) for lda_comp in lda_comps], color='blue')
 plt.xlabel("n_comps")
 plt.ylabel("perplexity")
 plt.show()
-
