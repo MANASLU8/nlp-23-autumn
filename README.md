@@ -31,4 +31,6 @@
 | [twitter-bullying-classification](/projects/twitter-bullying-classification) | Шерман Марк Леонидович |
 | [pg-news-dataset](/projects/pg-news-dataset) | Беликов Павел Геннадьевич |
 | [news_nlp](/projects/news_nlp) | Строкова Анастасия Владиславовна |
+| [newsgroups-classification](/projects/newsgroups-classification) | Герасимчук Михаил Юрьевич |
+| [fake-news-classifier](/projects/fake-news-classifier) | Артемьев Алексей Дмитриевич |
 | [gp-news-classification](/projects/gp-news-classification) | Проскурин Глеб Егорович |
