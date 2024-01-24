@@ -30,3 +30,5 @@
 | [ag-news-classification](/projects/ag-news-classification) | Веснин Дмитрий Владимирович |
 | [twitter-bullying-classification](/projects/twitter-bullying-classification) | Шерман Марк Леонидович |
 | [bm-news-classification](/projects/bm-news-classification) | Большим Максим Антонович |
+| [pg-news-dataset](/projects/pg-news-dataset) | Беликов Павел Геннадьевич |
+| [news_nlp](/projects/news_nlp) | Строкова Анастасия Владиславовна |
