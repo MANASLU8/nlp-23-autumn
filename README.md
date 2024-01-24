@@ -29,4 +29,3 @@
 | [aj-news-clusterization](/projects/aj-news-clusterization) | Федотовских Евгений Александрович |
 | [ag-news-classification](/projects/ag-news-classification) | Веснин Дмитрий Владимирович |
 | [twitter-bullying-classification](/projects/twitter-bullying-classification) | Шерман Марк Леонидович |
-| [newsgroups-classification](/projects/newsgroups-classification) | Герасимчук Михаил Юрьевич |
