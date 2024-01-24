@@ -33,3 +33,4 @@
 | [news_nlp](/projects/news_nlp) | Строкова Анастасия Владиславовна |
 | [newsgroups-classification](/projects/newsgroups-classification) | Герасимчук Михаил Юрьевич |
 | [fake-news-classifier](/projects/fake-news-classifier) | Артемьев Алексей Дмитриевич |
+| [ad-news-classification](/projects/ad-news-classification) | Мангараков Александр Дмитриевич |
