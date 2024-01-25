@@ -29,3 +29,4 @@
 | [aj-news-clusterization](/projects/aj-news-clusterization) | Федотовских Евгений Александрович |
 | [ag-news-classification](/projects/ag-news-classification) | Веснин Дмитрий Владимирович |
 | [twitter-bullying-classification](/projects/twitter-bullying-classification) | Шерман Марк Леонидович |
+| [nlp-news-topicks](/projects/nlp-news-topicks) | Расковалова Алёна Дмитриевна |
