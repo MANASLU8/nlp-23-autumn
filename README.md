@@ -32,3 +32,7 @@
 | [bm-news-classification](/projects/bm-news-classification) | Большим Максим Антонович |
 | [pg-news-dataset](/projects/pg-news-dataset) | Беликов Павел Геннадьевич |
 | [news_nlp](/projects/news_nlp) | Строкова Анастасия Владиславовна |
+| [newsgroups-classification](/projects/newsgroups-classification) | Герасимчук Михаил Юрьевич |
+| [fake-news-classifier](/projects/fake-news-classifier) | Артемьев Алексей Дмитриевич |
+| [gp-news-classification](/projects/gp-news-classification) | Проскурин Глеб Егорович |
+| [nlp-news-topicks](/projects/nlp-news-topicks) | Расковалова Алёна Дмитриевна |
